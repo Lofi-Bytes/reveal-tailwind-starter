@@ -1,0 +1,20 @@
+.reveal .slides {
+  text-align: left !important;
+}
+
+.rainbow {
+  background: red;
+  background: -webkit-linear-gradient(left,#b794f4, #68d391, #63b3ed);
+  background: -o-linear-gradient(right, #b794f4, #68d391, #63b3ed);
+  background: -moz-linear-gradient(right, #b794f4, #68d391, #63b3ed);
+  background: linear-gradient(to right,#b794f4, #68d391, #63b3ed);
+
+  -webkit-background-clip: text;
+  -o-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  /* font-size: 20vw; */
+}

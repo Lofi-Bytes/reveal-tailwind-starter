@@ -1,0 +1,48 @@
+1.14. This alone is huge! Paving the way for git-base CMS.
+
+Our clients content is "Queen"! Why wouldn't we treat it as preciously as we treat our code?
+
+Keeping their content in a database is dangerous. Content belongs in version control!!
+
+---------------------------------------------------------------------
+
+1.15. These frameworks have shifted us away from model view controller (MVC) architecture toward component-based architecture (CBA). Tightening SRP and allowing us to build, develop, and test view and logic together in isolation then stack them together like Legos. (more on this in part 02)
+
+---------------------------------------------------------------------
+
+1.16. Meta-frameworks
+
+Front end frameworks can be tedious and difficult to work with.
+
+Thinking back to our PHP example. These frameworks organize our code and automate the hard things like routing, SSR, images, etc. coupled to our front end frameworks.
+
+---------------------------------------------------------------------
+
+1.17. Final Piece to the Puzzle
+
+CDNs have been around for a long time, but have been slow to refresh since they aim to efficiently serve static files.
+
+A new generation of CDN hosting platforms has emerged. They integrate directly with your GitHub redeploying your site every time the specified deploy branch receives a push.
+
+---------------------------------------------------------------------
+
+1.18. Fetching Data on the Jam Stack
+
+Data on the jam stack can be fetched at two different points in time. During BUILD time, or RUN time. Any data that is fetched during build time is rendered into the site as static content.
+
+For the best UX, we aim to maximize the amount of data that we can fetch at build time.
+
+If data must be fetched at run time, that's okay! But keep it to a minimum. We really only see this with data-driven or data-intensive applications. We can handle this with API routes and SSR in NEXT/Vercel.
+
+
+
+---------------------------------------------------------------------
+
+1.18. The CMS empowered those without tech skills to still edit/add content. That is why WordPress and Drupal have dominated for so long. But they have two major drawbacks:
+
+1. They lock content up in a database. This has security and performance implications. Your content is now vulnerable to hacks, corruptions, crashes, etc. This also forces your server to have to fetch content on every request.
+
+---------------------------------------------------------------------
+
+1.19. CMS on the Jamstack
+
